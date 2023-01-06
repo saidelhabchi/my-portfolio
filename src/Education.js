@@ -1,7 +1,7 @@
 const Education = () => {
     return ( 
         <div className="section">
-            <h1>Education</h1>
+            <h1 className=" text-center">Education</h1>
             <p>I am a 4th year Software Engineering student at ENSAO.</p>
             <p>Throughout my time at ENSAO i have gained I have gained a solid foundation in computer science concepts such as data structures, algorithms, and programming languages</p>
             <p>I have also had the opportunity to participate in various software engineering projects, including the development of a mobile applications and web applications.</p>

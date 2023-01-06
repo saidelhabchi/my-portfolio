@@ -1,3 +1,4 @@
+import "./App.css";
 import About from "./About";
 import Competences from "./Competences";
 import Contacts from "./Contacts";
@@ -7,9 +8,9 @@ import Projects from "./Projects";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <Navbar />
-      <hr/>
+      
       <About />
       <hr/>
       <Education />

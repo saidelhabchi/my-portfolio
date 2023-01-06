@@ -1,7 +1,7 @@
 const Competences = () => {
     return ( 
         <div className="section">
-            <h1>Competences</h1>
+            <h1 className=" text-center">Competences</h1>
             <ul>
                 <li>Programming languages : I am good at using JAVA, Python and C#</li>
                 <li>Web Development : 
