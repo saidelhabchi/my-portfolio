@@ -1,6 +1,20 @@
-.App{
+.light-mode{
     background-color: #E2E8F0;
-    /*background-color: #2d464c;*/
+    
+    /*color: #0F766E;
+    background-color: #2d464c;*/
+}
+
+.dark-mode{
+    background-color: #121212;
+    
+    /*color: #BB86FC;
+    background-color: #2d464c;*/
+}
+
+.logo{
+    width: 105px;
+    box-shadow: 5px 10px 8px #262626;
 }
 
 .about {
@@ -8,9 +22,55 @@
     margin-bottom: 2.5rem;
 }
 
+.d-decoration {
+    list-style: none;
+}
 
-h1 {
+
+h1.light-mode{
     font-size: 50px;
     color: #0F766E;
     margin-bottom: 5rem;
+}
+
+h1.dark-mode{
+    font-size: 50px;
+    color: #BB86FC;
+    margin-bottom: 5rem;
+}
+
+/* paragraphs */
+p.dark-mode{
+    color: white;
+}
+p.light-mode{
+    color: black;
+}
+/* anchors */
+a.dark-mode{
+    color: white;
+}
+a.light-mode{
+    color: black;
+}
+/*h3*/
+h3.dark-mode{
+    color: #808080;
+}
+h3.light-mode{
+    color: #262626;
+}
+/*lists*/
+ul.dark-mode{
+    color: white;
+}
+ul.light-mode{
+    color: black;
+}
+/*div*/
+div.dark-mode{
+    color: white;
+}
+div.light-mode{
+    color: black;
 }
