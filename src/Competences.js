@@ -1,8 +1,10 @@
-const Competences = () => {
+const Competences = (props) => {
     return ( 
         <div className="section">
-            <h1>Competences</h1>
-            <ul>
+            <div className="text-center">
+                <h1 className={props.mode}>Competences</h1>
+            </div>
+            <ul className={props.mode}>
                 <li>Programming languages : I am good at using JAVA, Python and C#</li>
                 <li>Web Development : 
                     <ul>
